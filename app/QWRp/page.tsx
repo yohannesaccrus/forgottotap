@@ -62,6 +62,14 @@ const Adi = () => {
               title="J-Rocks ft. Prisa - Kau Curi Lagi"
             />
           </section>
+          <section className="section-content member">
+            <p className={raleway.className}>
+              And also Adi, along with Mas Con, I'm invite you to the <span>AS x CS Nights Out</span>,
+              I want to appreciate both of your efforts through AS, CS and also Platforms in the end of this Q2,
+              I will update the selection of the place here later on including the one below us,
+              and also can decide the time with Mas Con, it's only the name consist of "Nights", but it doesn't have to be at night.
+            </p>
+          </section>
         </div>
       </div>
     </>

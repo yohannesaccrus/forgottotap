@@ -35,12 +35,15 @@ span {
 .section {
   &-title {
     text-align: center;
+
     h1 {
       color: #747d8c;
+
       span {
         font-weight: 600;
       }
     }
+
     &.member {
       h1 {
         span {
@@ -49,19 +52,27 @@ span {
       }
     }
   }
+
   &-content {
     margin-top: 3rem;
+
     p {
       color: #57606f;
       text-align: justify;
+
       &.last {
         text-align: center;
       }
     }
+
     &.member {
       p {
         line-height: 3.5rem;
         text-indent: 2rem;
+
+        span {
+          font-weight: 500;
+        }
       }
     }
   }
@@ -73,6 +84,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     .visual {
       box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.54);
       position: relative;
@@ -81,6 +93,7 @@ span {
       border-radius: 0.25rem;
       overflow: hidden;
     }
+
     .caption {
       font-weight: 200;
       font-style: italic;
@@ -96,6 +109,7 @@ span {
   min-height: 100vh;
   left: 50%;
   transform: translateX(-50%);
+
   .side {
     &-name {
       color: #ff7f50;
@@ -112,71 +126,88 @@ span {
         top: 43%;
         left: -12%;
       }
+
       &.adi {
         bottom: 60%;
         left: -14%;
       }
+
       &.andre {
         bottom: 60%;
         left: -10%;
       }
+
       &.caca {
         bottom: 30%;
         left: -10%;
       }
+
       &.zhafran {
         bottom: 65%;
         left: -13%;
       }
+
       &.hans {
         bottom: 55%;
         left: -10%;
       }
+
       &.condro {
         bottom: 60%;
         left: -17%;
       }
+
       &.adi {
         bottom: 30%;
         left: -8%;
       }
+
       &.lika {
         bottom: 32%;
         left: -10.5%;
       }
+
       &.emil {
         bottom: 40%;
         left: -10.5%;
       }
+
       &.angel {
         bottom: 50%;
         left: -13%;
       }
+
       &.calvary {
         bottom: 50%;
         left: -13%;
       }
+
       &.dzar {
         bottom: 50%;
         left: -14%;
       }
+
       &.daniel {
         bottom: 50%;
         left: -12%;
       }
+
       &.fanny {
         bottom: 50%;
         left: -12%;
       }
+
       &.hadi {
         bottom: 50%;
         left: -10%;
       }
+
       &.paul {
         bottom: -5%;
         left: -20%;
       }
     }
+
     &-trait {
       color: #ff7f50;
       text-align: center;
@@ -192,62 +223,77 @@ span {
         bottom: 33%;
         right: -10%;
       }
+
       &.adi {
         top: 80%;
         right: -20%;
       }
+
       &.andre {
         top: 55%;
         right: -10%;
       }
+
       &.caca {
         top: 70%;
         right: -15%;
       }
+
       &.zhafran {
         top: 70%;
         right: -14%;
       }
+
       &.hans {
         top: 100%;
         right: -19%;
       }
+
       &.condro {
         top: 60%;
         right: -13%;
       }
+
       &.adi {
         top: 35%;
         right: -13%;
       }
+
       &.emil {
         top: 80%;
         right: -17%;
       }
+
       &.angel {
         top: 60%;
         right: -12%;
       }
+
       &.calvary {
         top: 80%;
         right: -17%;
       }
+
       &.dzar {
         top: 40%;
         right: -10%;
       }
+
       &.daniel {
         top: 40%;
         right: -10%;
       }
+
       &.fanny {
         top: 40%;
         right: -10%;
       }
+
       &.hadi {
         top: 60%;
         right: -14%;
       }
+
       &.paul {
         top: 60%;
         right: -11%;

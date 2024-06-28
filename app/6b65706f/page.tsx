@@ -76,7 +76,7 @@ const Reason = () => {
             </p>
             <p className={raleway.className}>
               The thing is, I want to re-create this feelings not only for
-              myself
+              myself, and I'm sorry too if some of you might experience this now during the release issue(s), even I forgot to bring my partner's key to his laptop, should be happy today but it seems turn out to be happy but being chased by something (I thought this bonding day would be smooth, I thought)
             </p>
             <p className={`${raleway.className} last`}>
               - Thank you for the efforts, stories, advices, and also kindness

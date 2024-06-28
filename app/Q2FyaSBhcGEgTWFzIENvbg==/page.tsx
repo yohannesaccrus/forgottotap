@@ -59,6 +59,14 @@ const Condro = () => {
           <section className="section-music">
             <Music source="/ost/Condro.mp3" title="Vicetone - Collide" />
           </section>
+          <section className="section-content member">
+            <p className={raleway.className}>
+              And also Mas Con, along with Adi, I'm invite you to the <span>AS x CS Nights Out</span>,
+              I want to appreciate both of your efforts through AS, CS and also Platforms in the end of this Q2,
+              I will update the selection of the place here later on including the one below us,
+              and also can decide the time with Adi, it's only the name consist of "Nights", but it doesn't have to be at night.
+            </p>
+          </section>
         </div>
       </div>
     </>
