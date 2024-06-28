@@ -1,0 +1,219 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+small,
+button,
+span {
+  color: #747d8c;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 1080px !important;
+  min-height: 100vh;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 10px 10px 39px #ebebeb, -10px -10px 39px #ffffff;
+
+  .content {
+    padding: 4rem 0;
+  }
+}
+
+.section {
+  &-title {
+    text-align: center;
+    h1 {
+      color: #747d8c;
+      span {
+        font-weight: 600;
+      }
+    }
+    &.member {
+      h1 {
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  &-content {
+    margin-top: 3rem;
+    p {
+      color: #57606f;
+      text-align: justify;
+      &.last {
+        text-align: center;
+      }
+    }
+    &.member {
+      p {
+        line-height: 3.5rem;
+        text-indent: 2rem;
+      }
+    }
+  }
+}
+
+.media {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .visual {
+      box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.54);
+      position: relative;
+      width: 80%;
+      height: 50rem;
+      border-radius: 0.25rem;
+      overflow: hidden;
+    }
+    .caption {
+      font-weight: 200;
+      font-style: italic;
+      font-size: 1.4rem;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.container-fonts {
+  position: fixed;
+  width: 1080px;
+  min-height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  .side {
+    &-name {
+      color: #ff7f50;
+      text-align: center;
+      position: absolute;
+      transform: rotate(270deg) translateY(-50%) scale(5);
+      text-transform: uppercase;
+      z-index: -1;
+      white-space: nowrap;
+      letter-spacing: 0.2rem;
+      opacity: 0.2;
+
+      &.julian {
+        top: 43%;
+        left: -12%;
+      }
+      &.adi {
+        bottom: 60%;
+        left: -14%;
+      }
+      &.andre {
+        bottom: 60%;
+        left: -10%;
+      }
+      &.caca {
+        bottom: 30%;
+        left: -10%;
+      }
+      &.zhafran {
+        bottom: 65%;
+        left: -13%;
+      }
+      &.hans {
+        bottom: 55%;
+        left: -10%;
+      }
+      &.condro {
+        bottom: 60%;
+        left: -17%;
+      }
+      &.adi {
+        bottom: 30%;
+        left: -8%;
+      }
+      &.lika {
+        bottom: 32%;
+        left: -10.5%;
+      }
+      &.emil {
+        bottom: 40%;
+        left: -10.5%;
+      }
+      &.angel {
+        bottom: 50%;
+        left: -13%;
+      }
+      &.calvary {
+        bottom: 50%;
+        left: -13%;
+      }
+    }
+    &-trait {
+      color: #ff7f50;
+      text-align: center;
+      position: absolute;
+      transform: rotate(90deg) translateY(-50%) scale(5);
+      text-transform: uppercase;
+      z-index: -1;
+      white-space: nowrap;
+      letter-spacing: 0.2rem;
+      opacity: 0.2;
+
+      &.julian {
+        bottom: 33%;
+        right: -10%;
+      }
+      &.adi {
+        top: 80%;
+        right: -20%;
+      }
+      &.andre {
+        top: 55%;
+        right: -10%;
+      }
+      &.caca {
+        top: 70%;
+        right: -15%;
+      }
+      &.zhafran {
+        top: 70%;
+        right: -14%;
+      }
+      &.hans {
+        top: 100%;
+        right: -19%;
+      }
+      &.condro {
+        top: 60%;
+        right: -13%;
+      }
+      &.adi {
+        top: 35%;
+        right: -13%;
+      }
+      &.emil {
+        top: 80%;
+        right: -17%;
+      }
+      &.angel {
+        top: 60%;
+        right: -12%;
+      }
+      &.calvary {
+        top: 80%;
+        right: -17%;
+      }
+    }
+  }
+}
+
+@import "./home.scss";
