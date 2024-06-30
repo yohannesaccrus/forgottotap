@@ -14,7 +14,7 @@ const caveat = Caveat({
   weight: ["400", "600", "700"],
 });
 
-const Emilda = () => {
+const Daniel = () => {
   return (
     <>
       <div className="container-fonts">
@@ -30,20 +30,29 @@ const Emilda = () => {
           </section>
           <section className="section-content member">
             <p className={raleway.className}>
-              Long but exciting journey awaits Dan, I'm also happy when hear you
+              Far and exciting journey awaits Dan, I'm also happy when hear you
               got the chance of going abroad, it will surely become precious and
-              great experience to you. Prepare everything carefully ya Dan, so
-              you can goin' there well, and starts there well too. I might have
-              more to said, but it seems I need to go now, otherwise Adi cannot
-              works.
-            </p>{" "}
+              great experience to you. Prepare everything carefully Dan, so you
+              can goin' there well, and starts there well too. Hope everything
+              is good for you before and after you get there.
+            </p>
             <p className={raleway.className}>
-              You represent hope, and I also hope everything goes well and fine
-              for you. Thank you for the effort and also your shares with me
-              about JDM, its like we have the same interest here. also hope the
-              ost below might be a backsound to your journey later. These ost
-              also represent reunion in its movie, hope again we can reunite one
-              day.
+              Thank you for all the effort you put to the team, especially for
+              wallet, and your helps through JIRA's bots with Fanny and Dzar.
+              Thanks for all the music you played well through the stories,
+              through the brownbags (when everyone wows you), event with Hans,
+              or just when we do chit chat after the day ends, it will surely be
+              remembered as the team's spirit.
+            </p>
+            <p className={raleway.className}>
+              Eventhough you seems more calm than Calvary but you also brave, I
+              think this is also one trait you have which leads to your path,
+              besides you also goin' into places and also conquer the Mt. Bromo
+              with Dzar. After the SIPP and your next chapter in US, I hope
+              there's moment we meet again in the future, surely there will be
+              lot of stories we have. The ost. below were also being used as
+              reunion in its movie, and might be a good backsound too when you
+              on your journey.
             </p>
           </section>
           <section className="section-music">
@@ -58,4 +67,4 @@ const Emilda = () => {
   );
 };
 
-export default Emilda;
+export default Daniel;

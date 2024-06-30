@@ -14,7 +14,7 @@ const caveat = Caveat({
   weight: ["400", "600", "700"],
 });
 
-const Emilda = () => {
+const Fanny = () => {
   return (
     <>
       <div className="container-fonts">
@@ -30,19 +30,29 @@ const Emilda = () => {
           </section>
           <section className="section-content member">
             <p className={raleway.className}>
-              No, sadness here is not because you were sad or something, No.
+              No Fan, sadness here is not because you were sad or something, No.
               It's more to like empathy of the same thing I felt this year. We
-              were into pets also, and I do feel those sadness when you lost
-              him/her, I lost her this year. Thank you for not making me feel
-              alone facing this lost. It's kinda sound dramatic, but I believe
-              you understand it.
+              were into pets, and I lost her this year. It was so hard, I even
+              didn't meet her at her last time. Thank you for not making me feel
+              alone facing the lost. It's kinda sound dramatic, but I believe
+              you understand it. Sadness is sad but it's kinda part of the life
+              we live, it creates and left not only hurts but also good
+              memories. But sad is just "sad" when release have problems,
+              especially on Friday.
             </p>
             <p className={raleway.className}>
               Thank you too for the efforts till this day, I saw you were
               dedicated a lot when it comes to release, working, or when Dzar
-              leaves. There's much to say, but I think I might say it later Fan,
-              thank you also for inviting me to try grup jajan Sopo Del, tell me
-              if you plan on goin for it again.
+              leaves. I haven't have experiene working with you, but I feel you
+              have that dedication and good responsibility, almost the same as
+              Lika's will. Keep goin' ya Fan, Thank you for keep making good
+              changes and standards along with Dzar and Daniel.
+            </p>
+            <p className={raleway.className}>
+              I'm sorry but didn't mean to remind or something, but we know they
+              were once with us, and now there'll they be. Also Fan, if you plan
+              to order from Kantin Jajan again let me know alright, might also
+              order for lunch.
             </p>
           </section>
           <section className="section-music">
@@ -57,4 +67,4 @@ const Emilda = () => {
   );
 };
 
-export default Emilda;
+export default Fanny;

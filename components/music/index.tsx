@@ -1,54 +1,49 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Player from "@madzadev/audio-player";
+import { useState, useRef } from "react";
+import AudioPlayer from "react-h5-audio-player";
 
 import "./custom.scss";
 
-const Music = ({ source, title }: { source: string; title: string }) => {
+const Music = ({
+  source,
+  title,
+  startAt,
+  children,
+}: {
+  source: string;
+  title: string;
+  startAt?: number;
+  children?: React.ReactNode;
+}) => {
+  const playerRef = useRef(null);
   const [showTitle, setShowTitle] = useState<boolean>(false);
 
   const handleClick = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
     setShowTitle(true);
   };
 
-  useEffect(() => {
-    const button = document.querySelector("._play_rfl62_1");
-    if (button) {
-      button.addEventListener("click", handleClick);
-    }
-
-    return () => {
-      if (button) {
-        button.removeEventListener("click", handleClick);
-      }
-    };
-  }, []);
   return (
     <div className="music-player">
-      <Player
-        trackList={[
-          {
-            url: source,
-            title: "",
-            tags: ["indie"],
-          },
-        ]}
-        includeTags={false}
-        includeSearch={false}
-        showPlaylist={false}
-        customColorScheme={{
-          playerBackground: "#747d8c",
-          progressSlider: "#57606f",
-          progressUsed: "#ffffff",
-          progressLeft: "#ced6e0",
-          bufferLoaded: "#a4b0be",
-          volumeSlider: "#57606f",
-          volumeUsed: "#ffffff",
-          volumeLeft: "#ced6e0",
+      <AudioPlayer
+        ref={playerRef}
+        volume={0.75}
+        loop={true}
+        src={source}
+        customAdditionalControls={[]}
+        onPlay={() => {
+          handleClick();
+          if (playerRef.current) {
+            playerRef.current.audio.current.currentTime = startAt;
+          }
         }}
       />
       {showTitle && <p className="ost fade-in">{title}</p>}
+      {showTitle && <div className="children">{children}</div>}
     </div>
   );
 };

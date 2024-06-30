@@ -76,7 +76,11 @@ const Reason = () => {
             </p>
             <p className={raleway.className}>
               The thing is, I want to re-create this feelings not only for
-              myself, and I'm sorry too if some of you might experience this now during the release issue(s), even I forgot to bring my partner's key to his laptop, should be happy today but it seems turn out to be happy but being chased by something (I thought this bonding day would be smooth, I thought)
+              myself. I'm sorry if you may see the gift or box is differ one to
+              another, it was all because like I said before, it might relates
+              with you despite it is small or big, old or new, or anything that
+              different. It might be something we like, our passions, might also
+              dreams, or something which relates to our lives
             </p>
             <p className={`${raleway.className} last`}>
               - Thank you for the efforts, stories, advices, and also kindness

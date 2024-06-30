@@ -28,7 +28,7 @@ span {
   box-shadow: 10px 10px 39px #ebebeb, -10px -10px 39px #ffffff;
 
   .content {
-    padding: 4rem 0;
+    padding: 4rem 2rem;
   }
 }
 
@@ -123,7 +123,7 @@ span {
       opacity: 0.2;
 
       &.julian {
-        top: 43%;
+        top: 38%;
         left: -12%;
       }
 
@@ -164,7 +164,7 @@ span {
 
       &.lika {
         bottom: 32%;
-        left: -10.5%;
+        left: -10%;
       }
 
       &.emil {
@@ -179,7 +179,7 @@ span {
 
       &.calvary {
         bottom: 50%;
-        left: -13%;
+        left: -14%;
       }
 
       &.dzar {
@@ -220,7 +220,7 @@ span {
       opacity: 0.2;
 
       &.julian {
-        bottom: 33%;
+        bottom: 28%;
         right: -10%;
       }
 
@@ -257,6 +257,11 @@ span {
       &.adi {
         top: 35%;
         right: -13%;
+      }
+
+      &.lika {
+        top: 33%;
+        right: -9%;
       }
 
       &.emil {

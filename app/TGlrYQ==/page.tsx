@@ -30,26 +30,32 @@ const Lika = () => {
           </section>
           <section className="section-content member">
             <p className={raleway.className}>
-              Lik, we were infrequently in the same project, until this website
+              Hi Lika, how was the last week's BR roller coaster ? hahaha. We
+              were infrequently in the same project ya Lik, until this website
               project comes and also because Chung Kit code base design which
               may need Condro's help to fix and onwards you were involved the
-              most. It's a kind of responsibility you take on here, and it
-              requires a strong will, which I see you have, to try to overcome
-              it. It's a big leap, isn't it?
+              most. It's a kind of responsibility you take on here, yes we know
+              its not run that smooth because there's issues here and there, but
+              during the times we worked, I feel kind of strong will from you, I
+              know it's kind of job requirement is it ?, but you got the spirit
+              on you, the will, the brave, to overcome this all, and it's a big
+              leap, isn't it?
             </p>
             <p className={raleway.className}>
-              The process is kinda sometimes quite takes time and lots of
-              intermittent, but I believe you'll get to know more through this.
-              I'm sorry too if there's miss one or two things which may leads to
-              us getting confused. But I'll try to overcome this as well, just
-              don't be affraid to ask or tell us if you experience something
-              wrong, it's kinda our responsibility too, haha.
+              It's hard I knew, I believe others would also thinks the same, why
+              it is so hard just to send the urls and tell what need to do, but
+              I believe you'll get to know more through this, not just you but
+              me too, the others too. I'm sorry if there's miss one or two
+              things which may leads to us getting confused. But I'll try to
+              overcome this as well, just don't be affraid to ask or tell us if
+              you experience something wrong, we fix of course, but if its dead
+              end, we'll smash somenone's seatalk if it needs to, haha.
             </p>
             <p className={raleway.className}>
-              Anyway, that's all about the code, I know you were the one who
-              also calm in the team being not calm because of this one, even you
-              told me you work during leave and weekend. Thank you ya Lik for
-              your great effort, you have a good will I feel.
+              Anyway, that's all about the works and codes, I know you were the
+              one who also calm in the team being not calm because of this one,
+              even you told me you work during leave and weekend. Thank you ya
+              Lik for your great efforts, you have a good will I feel.
             </p>
             <p className={raleway.className}>
               We were once talks about you collect a playlist for your future

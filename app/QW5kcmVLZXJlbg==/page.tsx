@@ -33,8 +33,8 @@ const Andre = () => {
               You might think why I write Hero in here and there, and it was
               because I feel that kind of good and cheerful feelings, or not
               just me I think, but us, its like most of the people have the same
-              feelings when you were around. Just hit me if I'm wrong, but I
-              think yes if you have two sides of you, the one is fun, full of
+              feelings when you were around Ndre. Just hit me if I'm wrong, but
+              I think yes if you have two sides of you, the one is fun, full of
               jokes and laugh, but the other one is so brave and bold figure,
               and that's what a heroes do.
             </p>
@@ -60,13 +60,16 @@ const Andre = () => {
               Once, you told me about a dream you had, I remember you said you
               like it black, but sorry Andre, I tried but I got the green one.
               Below is not Shelter or Everything Goes On, but kind of similar,
-              hope you enjoy it.
+              and also may reflect what you did to most of us here, hope you
+              enjoy it. Anyway, <strong>7497</strong> from Caca during last week
+              was great picture, heroes sometimes need mask too isn't it ?? =)
             </p>
           </section>
           <section className="section-music">
             <Music
               source="/ost/Andre.mp3"
-              title="Manse & Neyra - Won’t Let Go (Festival Mix)"
+              title="Manse & Neyra - Won’t Let Go"
+              startAt={45}
             />
           </section>
         </div>

@@ -1,7 +1,8 @@
 import React from "react";
 
 import "milligram/dist/milligram.min.css";
-import "@madzadev/audio-player/dist/index.css";
+// import "@madzadev/audio-player/dist/index.css";
+import "react-h5-audio-player/lib/styles.css";
 import "../public/style/index.scss";
 
 export const metadata = {

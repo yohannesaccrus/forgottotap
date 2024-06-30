@@ -14,7 +14,7 @@ const caveat = Caveat({
   weight: ["400", "600", "700"],
 });
 
-const Emilda = () => {
+const Angel = () => {
   return (
     <>
       <div className="container-fonts">
@@ -36,17 +36,25 @@ const Emilda = () => {
               what I believe if we assume passions is the same like hobbies, it
               could lead us connect to someone new which may help us during our
               effort in building something, its kind of your ticket to know each
-              other well. So keep your passions Ngel, its unique along with you
-              also you were into PC too, this one is unique too.
+              other well. So keep your passions Angel, its good and unique in
+              both ways.
             </p>
             <p className={raleway.className}>
               If its about works, you were the one who brings my mentorship
               moment back, because previously I'm with QA. Since that moment
               you've been worked with Lika and Emil, and I see you get along
-              well in CC. Thank you for the effort for the team Angel.
+              well in CC and website. You also have good styling skills I feel
+              through the code and interest, It's feels so good to code
+              something we can see, because if not then you may involve many
+              heads to overcome it, and this is one of the reason we become FE.
+              Thank you Angel for your code, your help, and your effort to the
+              team.
             </p>
             <p className={raleway.className}>
-              You can listen this during the weekend, when the roads clear
+              I saw you had one, please don't mind if this also comes upon you,
+              they might be friend with one Daniel had given to you, and also if
+              you driving through the weekend or through to Cikarang, can also
+              listen to the one below.
             </p>
           </section>
           <section className="section-music">
@@ -61,4 +69,4 @@ const Emilda = () => {
   );
 };
 
-export default Emilda;
+export default Angel;

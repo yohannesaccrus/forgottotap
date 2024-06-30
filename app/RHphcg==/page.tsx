@@ -14,7 +14,7 @@ const caveat = Caveat({
   weight: ["400", "600", "700"],
 });
 
-const Emilda = () => {
+const Dzar = () => {
   return (
     <>
       <div className="container-fonts">
@@ -30,24 +30,35 @@ const Emilda = () => {
           </section>
           <section className="section-content member">
             <p className={raleway.className}>
-              Actually there is much I want to say about you Dzar, especially
-              you were also the early members of the FE team up until now.
-              You're a person who always fight for things you want or deserve to
-              knew, and thank you for also involving me in the way of it, again
-              I'm sorry I can't say that much, I think I will update this page
-              again.
+              Hi Pak, there's lot of moments, up and downs, trouble and issues
+              since our first time through DD, hard times with Wang Sen of the
+              portal "depreciation", and eventually fights with admin portal.
+              Thank you Dzar for always help and support during the hard times,
+              also thank you for being a person who always fight for things we
+              need or deserve to knew, and thank you for also involving me in
+              the way of it.
             </p>
             <p className={raleway.className}>
-              Thanks for all the effort in team and also advice until shopee FE
-              academy starts, it was my turn next, uhhh..
+              There's hard times Dzar I knew, even at the start of this year you
+              experienced it the most, I hope everything goes well for the team.
+              You can always talks to me when things happens, because sometimes
+              I did feel confused to honestly. But I do hope we can talk about
+              other than company things with cups of Liong, I never had this one
+              and curious about the taste of it. Let's one day grab one
             </p>
             <p className={raleway.className}>
-              I realize you have interest in hiking, mountains or hills, the
-              last time even with Daniel and couples from regionals. I hope it
-              express your interest through hiking, because it can run in all
-              terrains, and also because I knew you Dzar, there will be always
-              something in Jogja, which is also my first town I visit I
-              remembered when I was a child.
+              Might the same with Emil's Ottoke, your 'Hmmmmm' is that simple
+              but good things to the team. Its unique tone I think only Daniel
+              can imitate it, makes both of you have bond beyond the team, haha.
+              Simple but makes the team cheers through it, thanks Dzar. I
+              realize also you have interest in hiking, mountains or hills, the
+              last time even with Daniel and couples from regionals.
+            </p>
+            <p className={raleway.className}>
+              I hope it express your interest through hiking, because it can run
+              in all terrains. Hope one day we can all see you hike other
+              mountains and see it through your instagram account. Also there's
+              always something in Jogja isn't it ?
             </p>
           </section>
           <section className="section-music">
@@ -62,4 +73,4 @@ const Emilda = () => {
   );
 };
 
-export default Emilda;
+export default Dzar;

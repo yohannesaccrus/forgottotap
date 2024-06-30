@@ -29,26 +29,37 @@ const Emilda = () => {
             </h1>
           </section>
           <section className="section-content member">
+            <p className={raleway.className}>"Ottoke ?"</p>
             <p className={raleway.className}>
-              Emil, since the SPM era with our Bro, you reflect this feelings of
-              hardwork, and until this time you lead CC. Currently it seems CC
-              is the most essential product in our teams, and you carefully take
-              care of it along with Angel and Lika. Honestly, I lost track the
-              most with CC, need to catch it up, but I hope everything is good
-              in CC.
+              So this is kind of like the word which always come from you if you
+              feel like confused or need to do something but you don't know what
+              to do, I just guessing, please no offense. The first I hear I
+              thought it was Japanese, but turns out to be Korean. Its okay to
+              be confused sometimes, because I most of the times too, if my
+              words is kind of "what the..", you'll hear it lot of times coming
+              from my desk behind you.
             </p>
             <p className={raleway.className}>
-              During our talks, I oftenly hears you were saying "ottoke", it
-              seems you use it when you didn't know on what to do next or in
-              short confuse. I thought it was Japanese, but turns out to be
-              Korean. When I'm working I suddenly hear this song, because mostly
-              my playlist was Korean R&B, this song below also has the ottoke.
+              Since the SPM era with our Bro, you reflect this feelings of
+              hardwork, and until this time you lead CC. Currently it seems CC
+              is the most essential product in our teams, and you carefully take
+              care of it along with Angel and Lika in website. Honestly, I lost
+              track the most with CC, need to catch it up, but I hope everything
+              is good in CC onwards ya Mil.
+            </p>
+            <p className={raleway.className}>
+              I also amazed knowing you can speak in chinese, I also have
+              compulsory chinese hour during my college, but slowly losing it,
+              it was fun class I remember with the Laoshi coming from the
+              chinese itself, she even give us one by one our chinese name. You
+              have good skill Emil, hope it develop well ya.
             </p>
           </section>
           <section className="section-music">
             <Music
               source="/ost/Emil.mp3"
               title="Soowoo ft. Dori - What Should I Do"
+              startAt={69}
             />
           </section>
         </div>

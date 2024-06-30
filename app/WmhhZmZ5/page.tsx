@@ -43,21 +43,26 @@ const Zhafran = () => {
               you've been proven that much you've been growing since the time
               you joined. Your courage made it to this current of time, which
               you always and still have points and efforts to make the team
-              develop more. As I said also to Andre your skills is also
+              develop more. As I said also before to Andre, your skills is also
               remarkable, and thank you for have sharing this with the others
               through advice, reviews, and standards. Thanks also for always put
               fire or encourage the team to grow more Zhaf.
             </p>
             <p className={raleway.className}>
               If I roll back the time, I feel that relief again when you finally
-              able to join the team, as jo keep rejecting others to join. Thanks
+              able to join the team, as Jo keep rejecting others to join. Thanks
               again for the time through all the up and downs and also the
               moments we had all good and bad, however through those things we
-              can learn and develop more.
+              can learn and develop more. We also have good memories being
+              chased during last year team bonding when everything like happens
+              in your car with Condro and the others, so I hope this might bring
+              back those memories, I'm sorry if it wasn't the same type as you
+              have.
             </p>
             <p className={raleway.className}>
-              I've never been really talks about what genre you likes, but I did
-              know someone you might want to hear him singing.
+              I've never been really talks about what genre of music or song you
+              likes, but I did know someone you might want to hear him singing.
+              Can you try to guess ?
             </p>
           </section>
           <section className="section-music">

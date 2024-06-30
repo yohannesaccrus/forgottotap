@@ -30,19 +30,31 @@ const Hadi = () => {
           </section>
           <section className="section-content member">
             <p className={raleway.className}>
-              Hi Hadi, I saw you have goin so many places, you might have
-              stories in each one of it. I feel freedom in you everytime I saw
-              into your stories, It's good to explore and know something new.
-              Besides we have same interest like Calvary in Pokemon but not
-              Digital one, Calvary seems not into it.
+              Hi Hadi, without your help what will the team would be? there's no
+              good event, less fun, and ordinary days we face. Thanks to you
+              great events whether its weekly, monthly, or quarterly all handed
+              well, even others can learn from your guide as well. Not only for
+              the events you also maintain your job well, thank you for the
+              helps in recon and also websites, I noticed you even work in the
+              weekend too with Lika.
             </p>
             <p className={raleway.className}>
-              Thank you for all the effort ya Di, in recon and also website, I
-              saw you were working in weekend too with Lika. And also thank you
-              to have been coordinated most of our events too, you really did a
-              good works. For the part below, Its kinda hard to pick knowing you
-              were into lot of songs, but hope this might suit you, it express
-              freedom too I think.
+              Freedom is more like I saw you have going so many places, you
+              might have stories in each one of it, and that's when I saw it.
+              It's good to explore and know something new. Even I remember you
+              goin' to Jogja with Farhan, I never seen such a happy face in
+              Farhan before those moment, haha. I realize you also like Digimon,
+              Conan, and also Pokemon, we have same interests as I also collect
+              Conan comics through my childhood, and also knows all pokemon name
+              (only until before Black and White). Sorry too I didn't realize
+              Akai was member of the Black Organization, though he was a good
+              character, but CMIIW.
+            </p>
+            <p className={raleway.className}>
+              If there's other event and you might need help, don't hesitate to
+              ask me, I'll try to help as well. Honestly, I might get bit
+              confused when pick you one below, but you really have good role in
+              the team I felt, and maybe this one fits you well.
             </p>
             <p className={raleway.className}></p>
           </section>

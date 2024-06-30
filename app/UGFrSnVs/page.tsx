@@ -32,11 +32,11 @@ const Julian = () => {
             <p className={raleway.className}>
               We were together since there is no standards, no microfrontends,
               no JIRA, no Bingjie, no H* drama(s) but there is Jo. I did
-              remember you offer me Beng-beng also Oreo when I'm at the lowest
-              state in my life and also confidently said "Gue" when I ask where
-              are the other members of FE in the team. Those we're not came in
-              form of a box, but there's happines I felt back then, because its
-              like you won't find this kind of things anywhere else.
+              remember you offer me snacks when I'm at the lowest state in my
+              life and also confidently said "Gue" when I ask where are the
+              other members of FE in the team. Those we're not came in form of a
+              box, but there's happines I felt back then, because its like you
+              won't find this kind of things anywhere else.
             </p>
             <p className={raleway.className}>
               Imagine how cool you have manager which also at the same year as
@@ -51,12 +51,16 @@ const Julian = () => {
               As a person who works beside you to this current time, I feel you
               have pride on this team, you feel confident but also cautious at
               the same time. This was also I've seen and hear during our talks,
-              jokes, and the most moments with you, which I feel an A****** was
-              the right choice to symbolize it. I hope with Pak Jul's leadership
-              and the new way ahead, FE will become stronger team than before in
-              terms of experience, knowledge, and skills.
+              jokes, and the most moments with you, which I feel that white
+              boxed-like car was the right choice to symbolize it. I hope with
+              Pak Jul's leadership and the new way ahead, FE will become
+              stronger team than before in terms of experience, knowledge, and
+              skills. I also happy for your marriage this year Pak Jul, may
+              onwards blessings come upon your family and your Bali explorations
+              too, hope someday we meet in Bali. Take care to for the Shenzhen's
+              Journey meets with Fu Qiang and other members!
             </p>
-            <p className={raleway.className} style={{ textAlign: "center" }}>
+            <p className={raleway.className}>
               and may I close this with note with ost. which also may reflect
               your story and also your pride for living in Selatan, Jakarta
             </p>
@@ -65,6 +69,7 @@ const Julian = () => {
             <Music
               source="/ost/Julian.mp3"
               title="White Shoes & The Couples Company - Kisah dari Selatan Jakarta"
+              startAt={42}
             />
           </section>
         </div>

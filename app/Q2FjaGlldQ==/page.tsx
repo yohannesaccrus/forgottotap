@@ -48,16 +48,22 @@ const Caca = () => {
               Let's keep be awesome and and rocking with the team!
             </p>
             <p className={raleway.className}>
-              Ummm, if you feel your box is bigger and wilder, inside is the
-              opposite of it. And again Ca, I'm sorry if I pronounce your
-              nickname wrong, but I hope the song below was right, (believe or
-              not this song may call you)
+              Ummm, if you feel your box is bigger, last time before last week
+              bonding we had this chit chat in lift which lead to who will get
+              the bigger one, you were also laughing, tried to stop, knowing it
+              was yours hahaha, its not because I'm into someone, but because
+              uniquely the kit have your name on it and it says "Lunch" on its
+              name. And again Ca, I'm sorry if I pronounce your nickname wrong,
+              but I hope the song below was right, (believe or not this song may
+              call you), and also thank you for always capture the stickers
+              moment of Andre and Calvary.
             </p>
           </section>
           <section className="section-music">
             <Music
               source="/ost/Caca.mp3"
               title="Basecamp 베이스캠프 - Camp ft. Colde"
+              startAt={78}
             />
           </section>
         </div>

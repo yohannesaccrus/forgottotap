@@ -41,10 +41,13 @@ const Condro = () => {
               You also the one I knew calm but also can enjoy other stories,
               have fun, and also got good jokes as well especially with Adi.
               Thank you Mas Con for being kind both in code-side and life-side,
-              I hope onwards platform team also growing but also please clearer
-              requirements from our fellow regionals, we were both knew its not
-              that easy to understand their needs sometimes. Thank you too for
-              the helps you provided when I ran into error or other issues.
+              I've seen you were kind of all out and enjoying that much during
+              the last week team bonding, seeing the tie like goin' everywhere
+              on you haha. I hope onwards platform team also growing but also
+              (this is my wish), please clearer requirements from our fellow
+              regionals, we were both knew its not that easy to understand their
+              needs sometimes. Thank you too for the helps you provided when I
+              ran into error or other issues.
             </p>
             <p className={raleway.className}>
               All and all Mas Con, it was a good time to have you as a partner
@@ -57,15 +60,17 @@ const Condro = () => {
             </p>
           </section>
           <section className="section-music">
-            <Music source="/ost/Condro.mp3" title="Vicetone - Collide" />
-          </section>
-          <section className="section-content member">
-            <p className={raleway.className}>
-              And also Mas Con, along with Adi, I'm invite you to the <span>AS x CS Nights Out</span>,
-              I want to appreciate both of your efforts through AS, CS and also Platforms in the end of this Q2,
-              I will update the selection of the place here later on including the one below us,
-              and also can decide the time with Adi, it's only the name consist of "Nights", but it doesn't have to be at night.
-            </p>
+            <Music source="/ost/Condro.mp3" title="Vicetone - Collide">
+              <p className={raleway.className}>
+                And also Mas Con, along with Adi, I'm invite you to the{" "}
+                <strong>AS x CS Night's Out</strong>, as I want to appreciate
+                both of your efforts through AS, CS and also Platforms in the
+                end of this Q2, I will update the selection of the place here
+                later on including the one below us, and also can decide the
+                time with Adi, it's only the name consist of "Night", but it
+                doesn't have to be at night.
+              </p>
+            </Music>
           </section>
         </div>
       </div>
