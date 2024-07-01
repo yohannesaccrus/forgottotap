@@ -1,0 +1,105 @@
+.content {
+  &.report {
+    p {
+      margin-bottom: unset;
+    }
+
+    .section {
+
+      &-title {
+
+        h2 {
+          color: rgb(186, 186, 186);
+        }
+
+        p {
+
+          span {
+            font-weight: 400;
+          }
+        }
+      }
+
+      &-content {
+        &.works {
+
+          h3 {
+            font-weight: 400;
+            letter-spacing: .2rem;
+            margin-bottom: unset;
+          }
+
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -2rem;
+
+            li {
+              flex-basis: calc(100% / 3);
+              list-style: none;
+              padding: 1rem 2rem;
+
+              .work {
+                border-radius: 12px;
+                background: #ededed;
+                box-shadow: 16px 16px 42px #d5d5d5,
+                  -16px -16px 42px #ffffff;
+                padding: 1.5rem;
+
+                .links {
+                  display: flex;
+                  justify-content: space-between;
+                  margin-bottom: 1rem;
+
+                  a {
+                    color: #a0a0a0;
+                    font-weight: 400;
+                    transition: all .5s ease;
+
+                    &:hover {
+                      color: #1e90ff;
+                    }
+                  }
+                }
+
+                p {
+                  font-weight: 400;
+                  text-align: center;
+                  font-size: 1.3rem;
+                }
+
+                .title {
+                  margin-bottom: 1.2rem;
+                }
+
+                .info {
+                  display: flex;
+                  justify-content: space-between;
+                  width: 60%;
+                  margin: 0 auto 0 auto;
+
+                  p {
+                    font-weight: 300;
+
+                    &.value {
+                      font-weight: 400;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        &.note {
+          h3 {
+            font-weight: 400;
+            letter-spacing: .2rem;
+            margin-bottom: 1rem;
+          }
+
+        }
+      }
+    }
+  }
+}
