@@ -31,7 +31,7 @@ const Emilda = () => {
           <section className="section-content member">
             <p className={raleway.className}>"Ottoke ?"</p>
             <p className={raleway.className}>
-              This word most the times since you were being here always said by you if you
+              This word seems most the times said by you if you
               feel like confused or need to do something but you don't know what
               to do. I was just guessing though, please no offense 🙌🏻. The first I hear I
               thought it was Japanese haha, but turns out to be Korean. Its okay to
