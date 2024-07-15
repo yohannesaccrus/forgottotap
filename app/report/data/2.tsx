@@ -40,26 +40,59 @@ export const data = {
       status: 0,
       releasePlan: 'TBA'
     },
+    {
+      number: 218382,
+      numberEpic: 195376,
+      title: '[Data][FE] Check Request Logic of Real Time Monitoring Request Config',
+      pm: '-',
+      assigne: 'yohannes.alldy',
+      scope: ['Real Time Monitoring'],
+      role: ['developer'],
+      status: 0,
+      releasePlan: 'within Q3'
+    },
+    {
+      number: 218383,
+      numberEpic: 195376,
+      title: '[Data][FE] Add Clearing Service Monitoring Menu',
+      pm: '-',
+      assigne: 'yohannes.alldy',
+      scope: ['Real Time Monitoring'],
+      role: ['developer'],
+      status: 0,
+      releasePlan: 'within Q3'
+    },
   ],
   platform: [
     {
-      number: 0,
-      numberEpic: 0,
-      title: '',
+      number: 214480,
+      numberEpic: 215859,
+      title: 'Update Main Portal GRPC to support PCI Migration',
       pm: '',
-      assigne: '',
-      scope: ['AS'],
-      role: ['reviewer'],
+      assigne: 'yohannes.alldy',
+      scope: ['Platform', 'SPM'],
+      role: ['developer'],
       status: 1,
-      releasePlan: '-'
+      releasePlan: '2024.06.v2-Tech_Adhoc'
+    },
+    {
+      number: 217590,
+      numberEpic: 215859,
+      title: 'Update Main Portal grpc client version',
+      pm: '',
+      assigne: 'yohannes.alldy',
+      scope: ['Platform', 'SPM'],
+      role: ['developer'],
+      status: 1,
+      releasePlan: '2024.06.v2-Tech_Adhoc'
     },
   ],
   others: [
     {
-      title: 'Shopeepay FE Academic Session - Git',
+      title: 'Shopee PMP Project Handover initiation',
       assigne: 'yohannes.alldy',
-      role: ['speaker'],
-      status: 0,
+      role: ['developer'],
+      status: 1,
     },
   ]
 }

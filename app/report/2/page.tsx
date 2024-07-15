@@ -129,8 +129,8 @@ const Report = () => {
           <section className="section-content note">
             <h3>Note / Concern</h3>
             <p className={raleway.className}>
-              Sorry if it was late for the bi-weekly report to be sent off, last week there's problem with Shopeepay Official Website release in BR region. There's config issue which involve SRE, RM, and also Jinwu's help to finally overcome it. Me, Julian, Lika, and Condro try to fix it and finally resolves at Saturday afternoon.
-              Onwards, I will try to give the update status of each bi-weekly tasks which I'm being involved in through this site.
+              In the past two weeks, The task of the <strong>switchable API</strong> was the the most troublesome one, the ad hoc release was in <strong>the same time</strong> with the <strong>Jenkins and Yarn migration</strong>, resulting in the ad hoc going late on release.
+              This can be added to notes of better not to release or postpone it when the pipeline is not stable or when there is a migration occurs.
             </p>
           </section>
         </div>
